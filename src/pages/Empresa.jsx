@@ -1,25 +1,26 @@
-function Empresa() {
-    return (
-      <div className="container">
+function Empresa(){
+
+  return(
   
-        <h1>Sobre a Empresa</h1>
+  <div className="container">
   
-        <p>
-          A TechSolutions nasceu com o objetivo de transformar empresas
-          através da tecnologia e inovação digital.
-        </p>
+  <h1>Sobre a Empresa</h1>
   
-        <p>
-          Nossa missão é desenvolver soluções eficientes que ajudem
-          organizações a crescer e se destacar no mercado.
-        </p>
+  <img src="https://picsum.photos/800/300"/>
   
-        <p>
-          Atuamos em desenvolvimento de software, consultoria em TI
-          e soluções digitais para empresas de diversos setores.
-        </p>
+  <p>
+  Nossa empresa foi criada com o objetivo de oferecer soluções modernas e eficientes para o mercado digital.
+  Trabalhamos com tecnologias inovadoras e uma equipe especializada em desenvolvimento web e mobile.
+  </p>
   
-      </div>
-    )
+  <p>
+  Nosso compromisso é entregar qualidade, segurança e desempenho em todos os projetos.
+  </p>
+  
+  </div>
+  
+  )
+  
   }
+  
   export default Empresa

@@ -1,19 +1,25 @@
-function Footer() {
-    return (
-      <footer style={styles.footer}>
-        <p>Desenvolvido por Lucas Gonçalves Neves © 2026</p>
-        <p>Facebook | Instagram | LinkedIn</p>
-      </footer>
-    )
+function Footer(){
+  return(
+  
+  <footer className="footer">
+  
+  <h3>TechSolutions</h3>
+  
+  <p>Transformando ideias em tecnologia</p>
+  
+  <div className="social">
+  
+  <span>Facebook</span>
+  <span>Instagram</span>
+  <span>LinkedIn</span>
+  
+  </div>
+  
+  <p>© 2026 Todos os direitos reservados</p>
+  
+  </footer>
+  
+  )
   }
   
-  const styles = {
-    footer: {
-      marginTop: "40px",
-      padding: "20px",
-      background: "#222",
-      color: "white",
-      textAlign: "center"
-    }
-  }
   export default Footer
